@@ -1,0 +1,103 @@
+@import "../../_Partials/Partials";
+
+.home {
+  background-color: #ccc9dc;
+
+  &__intro {
+    height: 25rem;
+    padding-top: 120px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__demo {
+    height: 12rem;
+    background-color: #235789;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    box-sizing: border-box;
+  }
+
+  &__demo-img {
+    height: 8rem;
+  }
+
+  &__demo-left {
+    height: 100%;
+    display: flex;
+    width: 10rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__demo-left-title {
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    margin-top: 3rem;
+  }
+
+  //   break-point
+
+  &__store {
+    height: 12rem;
+    background-color: #dee2ff;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 1rem;
+
+    box-sizing: border-box;
+  }
+
+  &__store-img {
+    height: 8rem;
+  }
+
+  &__store-right {
+    height: 100%;
+    display: flex;
+    width: 10rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__store-right-title {
+    margin-bottom: 1rem;
+  }
+}
+
+.button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: $navy;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: #0053ba;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}

@@ -1,13 +1,32 @@
+@import "../../_Partials/Partials";
 .nav {
   width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
   height: 120px;
-  background-color: #02064a;
+  background-color: $navy;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    width: 80%;
+    color: $light-blue;
+    justify-content: space-between;
+  }
+
+  #li {
+    text-decoration: none;
+  }
 }
 
 #nav__logo {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
 }

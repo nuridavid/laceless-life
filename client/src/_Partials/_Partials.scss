@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@mixin mobile {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1440px) {
+    @content;
+  }
+}
+
+$light-blue: #7c9eb2;
+$light-purple: #52528c;
+$medium-purple: #372554;
+$dark-purple: #231123;
+$navy: #02064a;
+$neon: #50d8be;
+$peach: #ffbd59;
