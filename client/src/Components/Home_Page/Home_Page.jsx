@@ -1,12 +1,13 @@
 import React from "react";
 import "./Home_Page.scss";
+import { Link, Button } from "react-router-dom";
 import Toms_Shoe_Img from "../../Assets/toms shoes.jpeg";
 import Adidas_Shoe_Img from "../../Assets/adidas shoes.webp";
 import Nike_Phantom_Img from "../../Assets/nike-react-phantom-run-flyknit-2-white-black-cj0277-001-100-release-info-6.jpeg";
 import { useState } from "react";
-import demo_img from "../../Assets/Lace It up (2).png";
-import store_img from "../../Assets/Lace It up (3).png";
-import { Jumbotron, Button, Carousel } from "react-bootstrap";
+
+import { Jumbotron, Carousel } from "react-bootstrap";
+import Demo_Page from "../Demo_Page/Demo_Page";
 
 function Home_Page() {
   const [index, setIndex] = useState(0);
@@ -54,32 +55,44 @@ function Home_Page() {
         </Carousel.Item>
       </Carousel>
 
-      <Jumbotron>
+      <Jumbotron className="jumbotron">
         <h1>Learn How to Tie Your Shoe</h1>
+
         <p>
           Below you can find our unique and one of a kind demo on how to tie
           your shoes!
         </p>
-        <button className="button" href="/demo">
+
+        <button href="/demo" className="button">
           Watch Demo
         </button>
       </Jumbotron>
-      <div className="home__demo">
-        <span className="home__demo-left">
-          <h3 className="home__demo-left-title">Learn How to Tie Your Shoes</h3>
-          <button className="button">Watch Demo</button>
-        </span>
-        <img className="home__demo-img" src={demo_img}></img>
-      </div>
-      <div className="home__store">
-        <span className="home__store-right">
-          <h3 className="home__store-right-title">
-            Find Stores with Laceless Shoes
-          </h3>
-          <button className="button">Stores Near You</button>
-        </span>
-        <img className="home__store-img" src={store_img}></img>
-      </div>
+      <Jumbotron className="jumbotron2">
+        <h1>Stores Near Me</h1>
+
+        <p>
+          Below you can find our unique and one of a kind demo on how to tie
+          your shoes!
+        </p>
+
+        <button href="/demo" className="button">
+          Watch Demo
+        </button>
+      </Jumbotron>
+
+      <Jumbotron className="jumbotron3">
+        <h1>Shop Laceless</h1>
+
+        <p>
+          Below you can find our unique and one of a kind demo on how to tie
+          your shoes!
+        </p>
+        <Link to="/demo">
+          <button type="button" className="button">
+            Watch Demo
+          </button>
+        </Link>
+      </Jumbotron>
     </div>
   );
 }
