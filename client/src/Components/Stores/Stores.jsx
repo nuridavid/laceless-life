@@ -1,7 +1,7 @@
 import React from "react";
 
 function Stores() {
-  return <div>stores page</div>;
+  return <div>Stores page</div>;
 }
 
 export default Stores;
