@@ -9,16 +9,27 @@ function Navy() {
         collapseOnSelect
         expand="lg"
         bg="dark"
-        variant="dark"
+        variant="light"
         className="Nav"
       >
-        <Navbar.Brand href="/">The Laceless Life</Navbar.Brand>
+        <Navbar.Brand href="/" id="header">
+          The Laceless Life
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/demo">Demo</Nav.Link>
-            <Nav.Link href="/shoes">Shoes</Nav.Link>
-            <Nav.Link href="/stores">Stores</Nav.Link>
+            <Nav.Link href="/" id="menu">
+              Home
+            </Nav.Link>
+            <Nav.Link href="/demo" id="menu">
+              Demo
+            </Nav.Link>
+            <Nav.Link href="/shoes" id="menu">
+              Shoes
+            </Nav.Link>
+            <Nav.Link href="/stores" id="menu">
+              Stores
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

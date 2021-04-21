@@ -5,6 +5,9 @@ import ReactPlayer from "react-player";
 function Demo_Page() {
   return (
     <div className="demo">
+      <div>
+        <h3>DEMO</h3>
+      </div>
       <ReactPlayer
         className="video"
         controls
@@ -13,6 +16,9 @@ function Demo_Page() {
         width="500px"
         height="500px"
       />
+      <h4>
+        If that demo wasn't enough help, check out our awesome laceless shoes!
+      </h4>
     </div>
   );
 }

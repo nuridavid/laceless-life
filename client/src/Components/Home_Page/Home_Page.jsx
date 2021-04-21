@@ -17,10 +17,10 @@ function Home_Page() {
   };
   return (
     <div className="home">
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel activeIndex={index} onSelect={handleSelect} id="carousel">
         <Carousel.Item className="item">
           <img
-            className="d-block w-100 image"
+            className="d-block image"
             src={Nike_Phantom_Img}
             alt="First slide"
           />
@@ -29,9 +29,9 @@ function Home_Page() {
             <button>Show me these shoes</button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="item">
           <img
-            className="d-block w-100 image"
+            className="d-block  image2"
             src={Adidas_Shoe_Img}
             alt="Second slide"
           />
@@ -41,9 +41,9 @@ function Home_Page() {
             <button>Show me these shoes</button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="item">
           <img
-            className="d-block w-100 image"
+            className="d-block  image3"
             src={Toms_Shoe_Img}
             alt="Toms shoes"
           />
@@ -63,9 +63,11 @@ function Home_Page() {
           your shoes!
         </p>
 
-        <button href="/demo" className="button">
-          Watch Demo
-        </button>
+        <Link to="/demo">
+          <button type="button" className="button">
+            Watch Demo
+          </button>
+        </Link>
       </Jumbotron>
       <Jumbotron className="jumbotron2">
         <h1>Stores Near Me</h1>
@@ -75,9 +77,11 @@ function Home_Page() {
           your shoes!
         </p>
 
-        <button href="/demo" className="button">
-          Watch Demo
-        </button>
+        <Link to="/stores">
+          <button type="button" className="button">
+            Find Stores
+          </button>
+        </Link>
       </Jumbotron>
 
       <Jumbotron className="jumbotron3">
@@ -87,7 +91,7 @@ function Home_Page() {
           Below you can find our unique and one of a kind demo on how to tie
           your shoes!
         </p>
-        <Link to="/demo">
+        <Link to="/shoes">
           <button type="button" className="button">
             Watch Demo
           </button>
