@@ -1,3 +1,6 @@
+
+@import "../../_Partials/Partials";
+
 .not-found {
   display: flex;
   justify-content: center;
@@ -10,5 +13,10 @@
   &__img {
     width: 18rem;
     margin-top: 1rem;
+  }
+
+  &__link{
+color: $mint;
+text-decoration: none;
   }
 }

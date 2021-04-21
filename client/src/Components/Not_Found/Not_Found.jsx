@@ -10,7 +10,9 @@ function Not_Found() {
       <div className="not-found">
         <h1>404 - Not Found!</h1>
         <img className="not-found__img" src={shoe} alt=""></img>
-        <Link to="/">Take Me Home</Link>
+        <Link to="/" className="not-found__link">
+          Take Me Home
+        </Link>
       </div>
     </>
   );

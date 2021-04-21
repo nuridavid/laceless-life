@@ -141,9 +141,18 @@ button:active {
   height: 300px;
   background-size: cover;
   background-position: center;
-  color: $mint;
+  color: whitesmoke;
+  text-shadow: 2px 2px 1px gray;
+
   margin-top: 2rem;
 
+  p {
+    font-weight: 500;
+  }
+  h3,
+  p {
+    text-shadow: 2px 2px 1px gray;
+  }
   &2 {
     background-image: url("../../Assets/shoe\ stores.jpeg");
   }
