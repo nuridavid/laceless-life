@@ -4,7 +4,8 @@
     "shoe": "Nike Phantom",
     "Stores": "Nike",
     "Phone-number": "123-456-7899",
-    "link": "www.Nike.com"
+    "link": "www.Nike.com",
+    "img": "../../client/src/Assets/adidas shoes.webp"
   },
 
   {
@@ -17,6 +18,54 @@
 
   {
     "id": 3,
+    "shoe": "Toms",
+    "Stores": "Toms, 700 Willow Street, boca raton, FL, 33433",
+    "Phone-number": "123-456-7899",
+    "link": "www.Toms.com"
+  },
+  {
+    "id": 4,
+    "shoe": "Nike Phantom",
+    "Stores": "Nike",
+    "Phone-number": "123-456-7899",
+    "link": "www.Nike.com",
+    "img": "../../client/src/Assets/adidas shoes.webp"
+  },
+
+  {
+    "id": 5,
+    "shoe": "Adidas",
+    "Stores": "Adidas, 6000 Glades Rd, boca raton, FL, 33433",
+    "Phone-number": "123-456-7899",
+    "link": "www.Adidas.com"
+  },
+
+  {
+    "id": 6,
+    "shoe": "Toms",
+    "Stores": "Toms, 700 Willow Street, boca raton, FL, 33433",
+    "Phone-number": "123-456-7899",
+    "link": "www.Toms.com"
+  },
+  {
+    "id": 7,
+    "shoe": "Nike Phantom",
+    "Stores": "Nike",
+    "Phone-number": "123-456-7899",
+    "link": "www.Nike.com",
+    "img": "../../Assets/laces.jpeg"
+  },
+
+  {
+    "id": 8,
+    "shoe": "Adidas",
+    "Stores": "Adidas, 6000 Glades Rd, boca raton, FL, 33433",
+    "Phone-number": "123-456-7899",
+    "link": "www.Adidas.com"
+  },
+
+  {
+    "id": 9,
     "shoe": "Toms",
     "Stores": "Toms, 700 Willow Street, boca raton, FL, 33433",
     "Phone-number": "123-456-7899",

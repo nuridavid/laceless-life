@@ -17,19 +17,31 @@ function Home_Page() {
         <Carousel.Item className="item picture">
           <Carousel.Caption>
             <h3>Cut the crap, ditch the laces</h3>
-            <button>Show me these shoes</button>
+            <Link to="/demo">
+              <button type="button" className="button1">
+                Watch Demo
+              </button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="item picture__2">
           <Carousel.Caption>
             <h3>Cut the crap, ditch the laces</h3>
-            <button>Show me these shoes</button>
+            <Link to="/demo">
+              <button type="button" className="button1">
+                Watch Demo
+              </button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="item picture__3">
           <Carousel.Caption>
             <h3>Cut the crap, ditch the laces</h3>
-            <button>Show me these shoes</button>
+            <Link to="/shoes">
+              <button type="button" className="button1">
+                Shoe me These Shoes
+              </button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
