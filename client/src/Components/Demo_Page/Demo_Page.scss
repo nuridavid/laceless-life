@@ -1,11 +1,17 @@
+@import "../../_Partials/Partials";
+
 .demo {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
-  padding: 2rem 0;
+  padding: 2rem 2rem;
   background-color: black;
+
+  &__h4 {
+    color: $mint;
+  }
 }
 .video {
   outline: none;

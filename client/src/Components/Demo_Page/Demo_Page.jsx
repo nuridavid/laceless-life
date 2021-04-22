@@ -13,10 +13,10 @@ function Demo_Page() {
         controls
         url={Demo_Vid}
         playing={true}
-        width="500px"
-        height="500px"
+        width="100%"
+        height="400px"
       />
-      <h4>
+      <h4 className="demo__h4">
         If that demo wasn't enough help, check out our awesome laceless shoes!
       </h4>
     </div>

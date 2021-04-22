@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "shoe": "Nike Phantom",
+    "Stores": "Nike",
+    "Phone-number": "123-456-7899",
+    "link": "www.Nike.com"
+  },
+
+  {
+    "id": 2,
+    "shoe": "Adidas",
+    "Stores": "Adidas, 6000 Glades Rd, boca raton, FL, 33433",
+    "Phone-number": "123-456-7899",
+    "link": "www.Adidas.com"
+  },
+
+  {
+    "id": 3,
+    "shoe": "Toms",
+    "Stores": "Toms, 700 Willow Street, boca raton, FL, 33433",
+    "Phone-number": "123-456-7899",
+    "link": "www.Toms.com"
+  }
+]

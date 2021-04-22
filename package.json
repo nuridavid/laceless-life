@@ -1,0 +1,22 @@
+{
+  "name": "nuri-david-capstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuridavid/capstone.git"
+  },
+  "keywords": [
+    "capstone"
+  ],
+  "author": "nuri-david",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuridavid/capstone/issues"
+  },
+  "homepage": "https://github.com/nuridavid/capstone#readme"
+}
