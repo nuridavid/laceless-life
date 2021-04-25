@@ -11,6 +11,15 @@ h3 {
 }
 
 .item {
+  text-shadow: 3px 1px 0 black;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    margin-bottom: -1rem;
+  }
 }
 
 .picture {
@@ -20,18 +29,19 @@ h3 {
   background-position-y: center;
   background-position-x: center;
   background-repeat: no-repeat;
+  border-radius: 2rem;
 
   &__2 {
     background-image: url("../../Assets/toms\ shoes.jpeg");
     background-size: contain;
-    height: 280px;
+    height: 300px;
     width: 100%;
     background-position-y: center;
     background-position-x: center;
     background-repeat: no-repeat;
   }
   &__3 {
-    background-image: url("../../Assets/adidas\ shoes.webp");
+    background-image: url("../../Assets/nike-velcro.jpeg");
     background-size: contain;
     height: 300px;
     background-position-y: center;
@@ -176,6 +186,22 @@ button:focus {
 
 button:active {
   transform: scale(0.99);
+}
+
+.button1:hover,
+.button1:focus {
+  background: rgb(184, 249, 225);
+  color: black;
+  font-weight: 500;
+}
+
+.button1:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.button1:active {
+  transform: scale(1.5);
 }
 
 .jumbotron {

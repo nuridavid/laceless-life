@@ -1,5 +1,7 @@
 import React from "react";
 import Demo_Vid from "../../Assets/nuridavid.mp4";
+import { Jumbotron } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Demo_Page.scss";
 import ReactPlayer from "react-player";
 import Arrow from "../../Assets/Untitled design.mp4";
@@ -26,6 +28,8 @@ function Demo_Page() {
         muted
         style={{
           width: "100%",
+          height: "300px",
+          width: "300px",
           margin: "5rem 0 0 0",
           objectFit: "fill",
         }}
@@ -33,7 +37,17 @@ function Demo_Page() {
         <source src={Arrow} type="video/mp4" />
       </video>
 
-      <h4 className="demo__h4">more information about the shoes over here</h4>
+      <Jumbotron className="demo__jumbo">
+        <h1>Stores Near You</h1>
+
+        <p>Find stores Near you that have laceless shoes</p>
+
+        <Link to="/stores">
+          <button type="button" className="demo__button">
+            Find Stores
+          </button>
+        </Link>
+      </Jumbotron>
     </div>
   );
 }

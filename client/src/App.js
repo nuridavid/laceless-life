@@ -8,6 +8,7 @@ import Shoes from "./Components/Shoes/Shoes";
 import Stores from "./Components/Stores/Stores";
 import Not_Found from "./Components/Not_Found/Not_Found";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <Router>

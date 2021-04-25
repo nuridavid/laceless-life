@@ -61,12 +61,9 @@ function Home_Page() {
         </Link>
       </Jumbotron>
       <Jumbotron className="jumbotron2">
-        <h1>Stores Near Me</h1>
+        <h1>Stores Near You</h1>
 
-        <p>
-          Below you can find our unique and one of a kind demo on how to tie
-          your shoes!
-        </p>
+        <p>Find stores Near you that have laceless shoes for sale.</p>
 
         <Link to="/stores">
           <button type="button" className="button">
