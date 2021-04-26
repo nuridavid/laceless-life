@@ -1,4 +1,6 @@
 import React from "react";
+import nike_Pic from "../../Assets/nike-react-phantom-run-flyknit-2-white-black-cj0277-001-100-release-info-6.jpeg";
+import toms_Img from "../../Assets/toms shoes.jpeg";
 import Demo_Vid from "../../Assets/nuridavid.mp4";
 import { Jumbotron } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -36,6 +38,16 @@ function Demo_Page() {
       >
         <source src={Arrow} type="video/mp4" />
       </video>
+
+      <h3 className="demo__shoes-header">
+        Check Out our Awesome Laceless Shoes!
+      </h3>
+
+      <div className="demo__img-container">
+        <img src={nike_Pic} alt="nike phantom" className="demo__img" />
+        <img src={toms_Img} alt="nike phantom" className="demo__img" />
+        <img src={nike_Pic} alt="nike phantom" className="demo__img" />
+      </div>
 
       <Jumbotron className="demo__jumbo">
         <h1>Stores Near You</h1>

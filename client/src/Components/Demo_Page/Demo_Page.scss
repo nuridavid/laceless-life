@@ -17,6 +17,18 @@
     background-image: url("../../Assets/mike-petrucci-c9FQyqIECds-unsplash.jpg");
   }
 
+  &__img {
+    width: 12.5rem;
+    height: 10rem;
+    border-radius: 10px;
+  }
+
+  &__img-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
   &__button {
     display: inline-block;
     border: none;
@@ -57,4 +69,8 @@
     outline: none;
     border: none;
   }
+}
+
+.demo__shoes-header {
+  margin-bottom: 3rem;
 }

@@ -12,7 +12,6 @@ function Shoes() {
       .get(url)
       .then((res) => {
         setShoe(res.data);
-        console.log(shoe);
       })
       .catch(function (err) {
         console.log(err);

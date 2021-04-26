@@ -1,5 +1,9 @@
-{
-  "store": "target",
-  "location": "123 west hillsboro road, boca raton, FL, 33433",
-  "Phone-number": "123-456-7899"
-}
+[
+  {
+    "id": 1,
+    "store": "nike",
+    "location": "12801 W Sunrise Blvd Ste 1005 Sunrise, FL 33323",
+    "Phone-number": "(954) 837-0329",
+    "coordinates": [-80.315, 26.146]
+  }
+]
