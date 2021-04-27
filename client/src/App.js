@@ -8,7 +8,7 @@ import Shoes from "./Components/Shoes/Shoes";
 import Stores from "./Components/Stores/Stores";
 import Not_Found from "./Components/Not_Found/Not_Found";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Shoe from "./Components/Shoe/Shoe";
 function App() {
   return (
     <Router>
@@ -17,6 +17,7 @@ function App() {
         <Route exact path="/" component={Home_Page} />
         <Route exact path="/demo" component={Demo_Page} />
         <Route exact path="/shoes" component={Shoes} />
+        <Route exact path="/shoes/:id" component={Shoe} />
         <Route exact path="/stores" component={Stores} />
         <Route component={Not_Found} />
       </Switch>

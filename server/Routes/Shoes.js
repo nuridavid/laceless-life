@@ -12,4 +12,11 @@ router.get("/", (req, res) => {
     if (err) console.log(err);
   });
 });
+router.get("/:id", (req, res) => {
+  fs.readFile(formData, (err, data) => {
+    let shoesInfo = JSON.parse(data);
+    res.json(shoesInfo);
+    if (err) console.log(err);
+  });
+});
 module.exports = router;

@@ -5,5 +5,12 @@
     "location": "12801 W Sunrise Blvd Ste 1005 Sunrise, FL 33323",
     "Phone-number": "(954) 837-0329",
     "coordinates": [-80.315, 26.146]
+  },
+  {
+    "id": 2,
+    "store": "Toms",
+    "location": "6000 GLADES RD, STE 1112A BOCA RATON, FL 33431 US",
+    "Phone-number": "(954) 837-0329",
+    "coordinates": [-80.133, 26.365]
   }
 ]

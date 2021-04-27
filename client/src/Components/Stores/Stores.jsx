@@ -1,7 +1,7 @@
 import React from "react";
 import "./Stores.scss";
 import axios from "axios";
-import ReactMapGL, { Marker } from "react-map-gl";
+import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import Shoe from "../../Assets/toms shoes.jpeg";
 import { useState, useEffect } from "react";
 const url = "http://localhost:8080/api/stores";
@@ -14,6 +14,8 @@ function Stores() {
     height: "100vh",
     width: "100vw",
   });
+
+  const [selectedStore, setSelectedStore] = useState(null);
   const [store, setStore] = useState(null);
   useEffect(() => {
     axios
@@ -24,6 +26,18 @@ function Stores() {
       .catch(function (err) {
         console.log(err);
       });
+  }, []);
+  useEffect(() => {
+    const listener = (e) => {
+      if (e.key === "Escape") {
+        setSelectedStore(null);
+      }
+    };
+    window.addEventListener("keydown", listener);
+
+    return () => {
+      window.removeEventListener("keydown", listener);
+    };
   }, []);
   return (
     <div>
@@ -38,15 +52,42 @@ function Stores() {
         }}
       >
         {store?.map((store) => {
-          <Marker
-            key={store.id}
-            latitude={store.coordinates[1]}
-            latitude={store.coordinates[0]}
-          >
-            <button>
-              <img src={Shoe} alt="shoe" />
-            </button>
-          </Marker>;
+          return (
+            <div>
+              <Marker
+                key={store.id}
+                latitude={store.coordinates[1]}
+                longitude={store.coordinates[0]}
+              >
+                <button
+                  className="store__marker-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedStore(store);
+                  }}
+                >
+                  <img src={Shoe} alt="shoe store icon" />
+                </button>
+              </Marker>
+              <div>
+                {selectedStore ? (
+                  <Popup
+                    latitude={store.coordinates[1]}
+                    longitude={store.coordinates[0]}
+                    key={store.id}
+                    onClose={() => {
+                      setSelectedStore(null);
+                    }}
+                  >
+                    <div>
+                      <h2>{store.store}</h2>
+                      <h4>{store.location}</h4>
+                    </div>
+                  </Popup>
+                ) : null}
+              </div>
+            </div>
+          );
         })}
       </ReactMapGL>
     </div>
