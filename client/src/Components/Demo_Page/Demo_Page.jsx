@@ -10,9 +10,6 @@ import Arrow from "../../Assets/Untitled design.mp4";
 function Demo_Page() {
   return (
     <div className="demo">
-      <div>
-        <h3>DEMO</h3>
-      </div>
       <ReactPlayer
         className="video"
         controls
@@ -39,14 +36,16 @@ function Demo_Page() {
         <source src={Arrow} type="video/mp4" />
       </video>
 
-      <h3 className="demo__shoes-header">
-        Check Out our Awesome Laceless Shoes!
-      </h3>
-
       <div className="demo__img-container">
-        <img src={nike_Pic} alt="nike phantom" className="demo__img" />
-        <img src={toms_Img} alt="nike phantom" className="demo__img" />
-        <img src={nike_Pic} alt="nike phantom" className="demo__img" />
+        <Link to="/shoes/1">
+          <img src={nike_Pic} alt="nike phantom" className="demo__img" />
+        </Link>
+        <Link to="/shoes/2">
+          <img src={toms_Img} alt="nike phantom" className="demo__img" />
+        </Link>
+        <Link to="/shoes/3">
+          <img src={nike_Pic} alt="nike phantom" className="demo__img" />
+        </Link>
       </div>
 
       <Jumbotron className="demo__jumbo">

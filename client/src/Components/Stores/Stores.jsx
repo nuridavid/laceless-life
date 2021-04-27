@@ -10,7 +10,7 @@ function Stores() {
   const [viewport, setViewport] = useState({
     latitude: 26.146,
     longitude: -80.315,
-    zoom: 15,
+    zoom: 8,
     height: "100vh",
     width: "100vw",
   });

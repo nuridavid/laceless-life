@@ -2,6 +2,7 @@ import React from "react";
 import "./Home_Page.scss";
 import { Link, Button } from "react-router-dom";
 import Toms_Shoe_Img from "../../Assets/toms shoes.jpeg";
+import Home_Video from "../../Assets/production ID_3804690.mp4";
 import { useState } from "react";
 import { Jumbotron, Carousel } from "react-bootstrap";
 import Demo_Page from "../Demo_Page/Demo_Page";
@@ -13,38 +14,19 @@ function Home_Page() {
   };
   return (
     <div className="home">
-      <Carousel activeIndex={index} onSelect={handleSelect} id="carousel">
-        <Carousel.Item className="item picture">
-          <Carousel.Caption>
-            <h3>Cut the crap, ditch the laces</h3>
-            <Link to="/demo">
-              <button type="button" className="button1">
-                Watch Demo
-              </button>
-            </Link>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item className="item picture__2">
-          <Carousel.Caption>
-            <h3>Cut the crap, ditch the laces</h3>
-            <Link to="/demo">
-              <button type="button" className="button1">
-                Watch Demo
-              </button>
-            </Link>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item className="item picture__3">
-          <Carousel.Caption>
-            <h3>Cut the crap, ditch the laces</h3>
-            <Link to="/shoes">
-              <button type="button" className="button1">
-                Shoe me These Shoes
-              </button>
-            </Link>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+      <video
+        autoPlay
+        loop
+        muted
+        style={{
+          height: "100%",
+          width: "300px",
+          margin: "5rem 0 0 0",
+          objectFit: "fill",
+        }}
+      >
+        <source src={Home_Video} type="video/mp4" />
+      </video>
 
       <Jumbotron className="jumbotron">
         <h1>Learn How to Tie Your Shoe</h1>

@@ -13,4 +13,14 @@ router.get("/", (req, res) => {
     if (err) console.log(err);
   });
 });
+
+router.get("/:id", (req, res) => {
+  fs.readFile(formData, (err, data) => {
+    let storesInfo = JSON.parse(data);
+    let storeId = req.params.id;
+    const finder = storesInfo.find((shoe) => shoe.id == storeId);
+    res.json(finder);
+    console.log(finder);
+  });
+});
 module.exports = router;

@@ -2,74 +2,92 @@
   {
     "id": 1,
     "shoe": "Vans",
-    "Stores": "Vans",
+    "Stores": "off Broadway",
     "Phone-number": "123-456-7899",
     "link": "www.Vans.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Vans-shoes.jpeg",
-    "class": "vans"
+    "class": "vans",
+    "location": "8210 Glades Rd Boca Raton, FL 33434",
+    "coordinates": [-80.175, 26.367]
   },
 
   {
     "id": 2,
     "shoe": "Under Armour",
-    "Stores": "Under Armour, 6000 Glades Rd, boca raton, FL, 33433",
-    "Phone-number": "123-456-7899",
+    "Stores": "Under Armour",
+    "Phone-number": "(561)693-0000",
     "link": "www.Underarmour.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Under-aromour.jpeg",
-    "class": "under"
+    "class": "under",
+    "location": " 1791 Palm Beach Lakes Blvd Suite W115, West Palm Beach, FL 33401",
+    "coordinates": [-80.088, 26.726]
   },
 
   {
     "id": 3,
     "shoe": "Toms",
-    "Stores": "Toms, 700 Willow Street, boca raton, FL, 33433",
+    "Stores": "DSW",
     "Phone-number": "123-456-7899",
     "link": "www.Toms.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/toms-shoes.jpeg",
-    "class": "toms"
+    "class": "toms",
+    "location": "9870 Glades Road Boca Raton, FL 33434-3917 US",
+    "coordinates": [-80.202, 26.365]
   },
   {
     "id": 4,
     "shoe": "Nike Phantom",
     "Stores": "Nike",
-    "Phone-number": "123-456-7899",
     "link": "www.Nike.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/nike-react-phantom-run-flyknit-2-white-black-cj0277-001-100-release-info-6.jpeg"
+    "img": "https://malala.me/wp-content/uploads/2021/04/nike-react-phantom-run-flyknit-2-white-black-cj0277-001-100-release-info-6.jpeg",
+    "store": "nike",
+    "location": "12801 W Sunrise Blvd Ste 1005 Sunrise, FL 33323",
+    "Phone-number": "(954) 837-0329",
+    "coordinates": [-80.315, 26.146]
   },
 
   {
     "id": 5,
     "shoe": "Adidas",
-    "Stores": "Adidas, 6000 Glades Rd, boca raton, FL, 33433",
+    "Stores": "Foot Locker, 6000 Glades Rd, boca raton, FL, 33433",
     "Phone-number": "123-456-7899",
     "link": "www.Adidas.com",
-    "img": "../../client/src/Assets/adidas shoes.webp"
+    "img": "../../client/src/Assets/adidas shoes.webp",
+    "location": "6000 Glades Rd Suite 1006, Boca Raton, FL 33431",
+    "coordinates": [-80.133, 26.365]
   },
 
   {
     "id": 6,
     "shoe": "Nike Slip",
     "Stores": "Nike, 700 Willow Street, boca raton, FL, 33433",
-    "Phone-number": "123-456-7899",
     "link": "www.Nike.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/Nike-slip-shoes.jpeg"
+    "img": "https://malala.me/wp-content/uploads/2021/04/Nike-slip-shoes.jpeg",
+    "store": "nike",
+    "location": "12801 W Sunrise Blvd Ste 1005 Sunrise, FL 33323",
+    "Phone-number": "(954) 837-0329",
+    "coordinates": [-80.315, 26.146]
   },
   {
     "id": 7,
     "shoe": "Allbird",
-    "Stores": "Allbird",
+    "Stores": "Walmart",
     "Phone-number": "123-456-7899",
     "link": "www.Allbird.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/Allbirds-shoes.jpeg"
+    "img": "https://malala.me/wp-content/uploads/2021/04/Allbirds-shoes.jpeg",
+    "location": "22100 FL-7, Boca Raton, FL 33428",
+    "coordinates": [-80.201, 26.349]
   },
 
   {
     "id": 8,
     "shoe": "Merino",
-    "Stores": "Merino, 6000 Glades Rd, boca raton, FL, 33433",
+    "Stores": "Walmart",
     "Phone-number": "123-456-7899",
     "link": "www.Merino.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/Merino-shoes.jpeg"
+    "img": "https://malala.me/wp-content/uploads/2021/04/Merino-shoes.jpeg",
+    "location": "22100 FL-7, Boca Raton, FL 33428",
+    "coordinates": [-80.201, 26.349]
   },
 
   {
@@ -78,6 +96,8 @@
     "Stores": "Ecco, 700 Willow Street, boca raton, FL, 33433",
     "Phone-number": "123-456-7899",
     "link": "www.Ecco.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/Ecco-shoe.jpeg"
+    "img": "https://malala.me/wp-content/uploads/2021/04/Ecco-shoe.jpeg",
+    "location": "5820 GLADES RD, BOCA RATON, FL, 33431",
+    "coordinates": [-80.131, 26.364]
   }
 ]

@@ -1,0 +1,12 @@
+@import "../../_Partials/Partials";
+
+.shoe__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#shoe__marker-img {
+  height: 3rem;
+  width: 3rem;
+}
