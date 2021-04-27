@@ -15,8 +15,10 @@ router.get("/", (req, res) => {
 router.get("/:id", (req, res) => {
   fs.readFile(formData, (err, data) => {
     let shoesInfo = JSON.parse(data);
-    res.json(shoesInfo);
-    if (err) console.log(err);
+    let shoeId = req.params.id;
+    const finder = shoesInfo.find((shoe) => shoe.id == shoeId);
+    res.json(finder);
+    console.log(finder);
   });
 });
 module.exports = router;
