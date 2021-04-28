@@ -1,9 +1,11 @@
 [
   {
     "id": 1,
-    "shoe": "Vans",
+    "company": "Vans",
+    "shoe": "slip-ons",
+    "price": "50 USD",
     "Stores": "off Broadway",
-    "Phone-number": "123-456-7899",
+    "Phone-number": "(561) 218-1355",
     "link": "www.Vans.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Vans-shoes.jpeg",
     "class": "vans",
@@ -13,7 +15,9 @@
 
   {
     "id": 2,
-    "shoe": "Under Armour",
+    "company": "Under Armour",
+    "price": "80 USD",
+    "shoe": "Charged Covert X Laceless Sneaker",
     "Stores": "Under Armour",
     "Phone-number": "(561)693-0000",
     "link": "www.Underarmour.com",
@@ -25,9 +29,11 @@
 
   {
     "id": 3,
-    "shoe": "Toms",
+    "company": "Toms",
+    "shoe": "Alpargata Slip On Flats",
     "Stores": "DSW",
-    "Phone-number": "123-456-7899",
+    "price": "34 USD",
+    "Phone-number": "(561) 483-1345",
     "link": "www.Toms.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/toms-shoes.jpeg",
     "class": "toms",
@@ -36,7 +42,9 @@
   },
   {
     "id": 4,
-    "shoe": "Nike Phantom",
+    "company": "Nike",
+    "price": "140 USD",
+    "shoe": "React Phantom Run Flyknit 2",
     "Stores": "Nike",
     "link": "www.Nike.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/nike-react-phantom-run-flyknit-2-white-black-cj0277-001-100-release-info-6.jpeg",
@@ -59,20 +67,23 @@
 
   {
     "id": 6,
-    "shoe": "Nike Slip",
-    "Stores": "Nike, 700 Willow Street, boca raton, FL, 33433",
+    "shoe": "Court Legacy Slip",
+    "company": "Nike",
+    "price": "55 USD",
+    "Stores": "Nike",
     "link": "www.Nike.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Nike-slip-shoes.jpeg",
-    "store": "nike",
     "location": "12801 W Sunrise Blvd Ste 1005 Sunrise, FL 33323",
     "Phone-number": "(954) 837-0329",
     "coordinates": [-80.315, 26.146]
   },
   {
     "id": 7,
-    "shoe": "Allbird",
+    "shoe": "Tree Loungers",
+    "company": "Allbirds",
+    "price": "95 USD",
     "Stores": "Walmart",
-    "Phone-number": "123-456-7899",
+    "Phone-number": "(561) 226-3157",
     "link": "www.Allbird.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Allbirds-shoes.jpeg",
     "location": "22100 FL-7, Boca Raton, FL 33428",
@@ -81,9 +92,11 @@
 
   {
     "id": 8,
-    "shoe": "Merino",
+    "shoe": "Slip-Ons",
+    "company": "Merino",
+    "price": "88 USD",
     "Stores": "Walmart",
-    "Phone-number": "123-456-7899",
+    "Phone-number": "(561) 226-3157",
     "link": "www.Merino.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Merino-shoes.jpeg",
     "location": "22100 FL-7, Boca Raton, FL 33428",
@@ -92,9 +105,11 @@
 
   {
     "id": 9,
-    "shoe": "Ecco",
-    "Stores": "Ecco, 700 Willow Street, boca raton, FL, 33433",
-    "Phone-number": "123-456-7899",
+    "shoe": "Soft Slip-On Sneakers",
+    "company": "Ecco",
+    "price": "130 USD",
+    "Stores": "Nordstrom",
+    "Phone-number": "(561) 620-5555",
     "link": "www.Ecco.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Ecco-shoe.jpeg",
     "location": "5820 GLADES RD, BOCA RATON, FL, 33431",

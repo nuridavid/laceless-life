@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 const url = "http://localhost:8080/api/shoes";
 function Shoes({ props, match, history }) {
   const [shoe, setShoe] = useState(null);
-  const id = match.params.id;
+
   useEffect(() => {
     axios
       .get(url)
@@ -28,22 +28,25 @@ function Shoes({ props, match, history }) {
       <div className="container1">
         {shoe?.map((shoe) => {
           return (
-            <div className="container1__card" key={shoe.id}>
-              <h4>{shoe.shoe}</h4>
-              <img src={shoe.img} id={shoe.class} alt="shoe"></img>
+            <div
+              className="container1__card"
+              key={shoe.id}
+              onClick={() => {
+                history.push(`/shoes/${shoe.id}`);
+              }}
+            >
+              <img
+                src={shoe.img}
+                id={shoe.class}
+                alt={shoe.shoe}
+                className="example"
+              ></img>
+              <div className="shoe__name">
+                <h3>{shoe.company}</h3>
 
-              <button
-                onClick={() => {
-                  history.push(`/shoes/${shoe.id} `);
-                }}
-                className="glow-on-hover"
-              >
-                <p>Take me to {shoe.shoe}'s website</p>
-              </button>
-
-              <button className="glow-on-hover">
-                <p>Show me {shoe.shoe} on the map</p>
-              </button>
+                <h5 className="shoe__name-shoe">{shoe.shoe}</h5>
+                <h6>{shoe.price}</h6>
+              </div>
             </div>
           );
         })}

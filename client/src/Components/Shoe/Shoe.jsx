@@ -3,13 +3,13 @@ import axios from "axios";
 import "mapbox-gl/dist/mapbox-gl.css";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import ShoePic from "../../Assets/toms shoes.jpeg";
-import ShoeMap from "./shoeMap/ShoeMap";
+
 import "./Shoe.scss";
 import { useParams } from "react-router-dom";
 import { Link } from "react";
 import { useState, useEffect } from "react";
 const url = "http://localhost:8080/api/shoes";
-function Shoe({ history }) {
+function Shoe({ props, match, history }) {
   const { id } = useParams();
   const [selectedShoe, setSelectedShoe] = useState(null);
   const [shoe, setShoe] = useState(null);
@@ -81,7 +81,6 @@ function Shoe({ history }) {
               <Popup
                 latitude={shoe.coordinates[1]}
                 longitude={shoe.coordinates[0]}
-                key={shoe.id}
                 onClose={() => {
                   setSelectedShoe(null);
                 }}
