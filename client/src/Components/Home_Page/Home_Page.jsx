@@ -31,7 +31,11 @@ function Home_Page() {
           </video>
           <div className="overlay">
             <h4>Learn How To Tie Your Shoes</h4>
-            <button>Watch Demo</button>
+            <Link to="/demo">
+              <button type="button" className="button">
+                Watch Demo
+              </button>
+            </Link>
           </div>
         </div>
         <div className="container3">
@@ -50,7 +54,11 @@ function Home_Page() {
           </video>
           <div className="overlay2">
             <h4>Start Living The Laceless Life</h4>
-            <button>Shop Laceless</button>
+            <Link to="/shoes">
+              <button type="button" className="button">
+                Shop Laceless
+              </button>
+            </Link>
           </div>
         </div>
       </div>
