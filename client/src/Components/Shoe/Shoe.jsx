@@ -51,7 +51,7 @@ function Shoe({ history }) {
       <div className="shoe__container">
         <img src={shoe.img}></img>
         <h3>{shoe.shoe}</h3>
-        {/* <div> */}
+
         <ReactMapGL
           {...viewport}
           mapboxApiAccessToken={
@@ -94,7 +94,6 @@ function Shoe({ history }) {
             ) : null}
           </div>
         </ReactMapGL>
-        {/* </div> */}
       </div>
     )
   );
