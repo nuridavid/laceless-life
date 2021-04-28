@@ -67,7 +67,7 @@ function Stores() {
                     setSelectedStore(store);
                   }}
                 >
-                  <img src={Shoe} alt="shoe store icon" />
+                  <img src={store.img} alt="shoe store icon" />
                 </button>
               </Marker>
               <div>
@@ -81,7 +81,7 @@ function Stores() {
                     }}
                   >
                     <div>
-                      <h2>{selectedStore.store}</h2>
+                      <h2>{selectedStore.stores}</h2>
                       <h4>{selectedStore.location}</h4>
                     </div>
                   </Popup>

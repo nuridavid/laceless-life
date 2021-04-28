@@ -49,7 +49,7 @@
   {
     "id": 6,
     "shoe": "Nike Slip",
-    "Stores": "Nike, 700 Willow Street, boca raton, FL, 33433",
+    "Stores": "Nike",
     "link": "www.Nike.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Nike-slip-shoes.jpeg",
     "store": "nike",
@@ -82,7 +82,7 @@
   {
     "id": 9,
     "shoe": "Ecco",
-    "Stores": "Ecco, 700 Willow Street, boca raton, FL, 33433",
+    "Stores": "Nordstrom",
     "Phone-number": "123-456-7899",
     "link": "www.Ecco.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Ecco-shoe.jpeg",
