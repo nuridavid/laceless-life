@@ -39,6 +39,7 @@ function Stores() {
       window.removeEventListener("keydown", listener);
     };
   }, []);
+  console.log(selectedStore);
   return (
     <div>
       <ReactMapGL
@@ -70,21 +71,21 @@ function Stores() {
                 </button>
               </Marker>
               <div>
-                {selectedStore ? (
+                {selectedStore && (
                   <Popup
-                    latitude={store.coordinates[1]}
-                    longitude={store.coordinates[0]}
+                    latitude={selectedStore.coordinates[1]}
+                    longitude={selectedStore.coordinates[0]}
                     key={store.id}
                     onClose={() => {
                       setSelectedStore(null);
                     }}
                   >
                     <div>
-                      <h2>{store.store}</h2>
-                      <h4>{store.location}</h4>
+                      <h2>{selectedStore.store}</h2>
+                      <h4>{selectedStore.location}</h4>
                     </div>
                   </Popup>
-                ) : null}
+                )}
               </div>
             </div>
           );

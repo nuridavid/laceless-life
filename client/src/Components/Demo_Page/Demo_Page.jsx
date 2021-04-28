@@ -1,5 +1,5 @@
 import React from "react";
-import nike_Pic from "../../Assets/nike-react-phantom-run-flyknit-2-white-black-cj0277-001-100-release-info-6.jpeg";
+import nike_Pic from "../../Assets/nike.png";
 import toms_Img from "../../Assets/toms shoes.jpeg";
 import Demo_Vid from "../../Assets/nuridavid.mp4";
 import { Jumbotron } from "react-bootstrap";

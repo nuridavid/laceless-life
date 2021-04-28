@@ -4,6 +4,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: black;
+  height: 100vh;
+
+  &-img {
+    height: 180px;
+    width: 180px;
+  }
 }
 
 #shoe__marker-img {

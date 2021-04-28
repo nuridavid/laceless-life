@@ -49,7 +49,7 @@ function Shoe({ props, match, history }) {
   return (
     shoe && (
       <div className="shoe__container">
-        <img src={shoe.img}></img>
+        <img className="shoe__container-img" src={shoe.img}></img>
         <h3>{shoe.shoe}</h3>
 
         <ReactMapGL

@@ -47,17 +47,6 @@
   },
 
   {
-    "id": 5,
-    "shoe": "Adidas",
-    "Stores": "Foot Locker, 6000 Glades Rd, boca raton, FL, 33433",
-    "Phone-number": "123-456-7899",
-    "link": "www.Adidas.com",
-    "img": "../../client/src/Assets/adidas shoes.webp",
-    "location": "6000 Glades Rd Suite 1006, Boca Raton, FL 33431",
-    "coordinates": [-80.133, 26.365]
-  },
-
-  {
     "id": 6,
     "shoe": "Nike Slip",
     "Stores": "Nike, 700 Willow Street, boca raton, FL, 33433",
