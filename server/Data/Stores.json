@@ -1,11 +1,13 @@
 [
   {
     "id": 1,
-    "shoe": "Vans",
+    "company": "Vans",
+    "shoe": "slip-ons",
+    "price": "50 USD",
     "Stores": "off Broadway",
-    "Phone-number": "123-456-7899",
+    "Phone-number": "(561) 218-1355",
     "link": "www.Vans.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/Vans-shoes.jpeg",
+    "img": "https://malala.me/wp-content/uploads/2021/04/Vans.png",
     "class": "vans",
     "location": "8210 Glades Rd Boca Raton, FL 33434",
     "coordinates": [-80.175, 26.367]
@@ -13,11 +15,13 @@
 
   {
     "id": 2,
-    "shoe": "Under Armour",
+    "company": "Under Armour",
+    "price": "80 USD",
+    "shoe": "Charged Covert X Laceless Sneaker",
     "Stores": "Under Armour",
     "Phone-number": "(561)693-0000",
     "link": "www.Underarmour.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/Under-aromour.jpeg",
+    "img": "https://malala.me/wp-content/uploads/2021/04/Under-Armour.png",
     "class": "under",
     "location": " 1791 Palm Beach Lakes Blvd Suite W115, West Palm Beach, FL 33401",
     "coordinates": [-80.088, 26.726]
@@ -25,21 +29,25 @@
 
   {
     "id": 3,
-    "shoe": "Toms",
+    "company": "Toms",
+    "shoe": "Parker Slip On",
     "Stores": "DSW",
-    "Phone-number": "123-456-7899",
+    "price": "34 USD",
+    "Phone-number": "(561) 483-1345",
     "link": "www.Toms.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/toms-shoes.jpeg",
+    "img": "https://malala.me/wp-content/uploads/2021/04/Toms-parker-slip-on.png",
     "class": "toms",
     "location": "9870 Glades Road Boca Raton, FL 33434-3917 US",
     "coordinates": [-80.202, 26.365]
   },
   {
     "id": 4,
-    "shoe": "Nike Phantom",
+    "company": "Nike",
+    "price": "140 USD",
+    "shoe": "React Phantom Run Flyknit 2",
     "Stores": "Nike",
     "link": "www.Nike.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/nike-react-phantom-run-flyknit-2-white-black-cj0277-001-100-release-info-6.jpeg",
+    "img": "https://malala.me/wp-content/uploads/2021/04/nike.png",
     "store": "nike",
     "location": "12801 W Sunrise Blvd Ste 1005 Sunrise, FL 33323",
     "Phone-number": "(954) 837-0329",
@@ -48,44 +56,51 @@
 
   {
     "id": 6,
-    "shoe": "Nike Slip",
+    "shoe": "Court Legacy Slip",
+    "company": "Nike",
+    "price": "55 USD",
     "Stores": "Nike",
     "link": "www.Nike.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/Nike-slip-shoes.jpeg",
-    "store": "nike",
+    "img": "https://malala.me/wp-content/uploads/2021/04/Nike-slides.png",
     "location": "12801 W Sunrise Blvd Ste 1005 Sunrise, FL 33323",
     "Phone-number": "(954) 837-0329",
     "coordinates": [-80.315, 26.146]
   },
   {
     "id": 7,
-    "shoe": "Allbird",
+    "shoe": "Tree Loungers",
+    "company": "Allbirds",
+    "price": "95 USD",
     "Stores": "Walmart",
-    "Phone-number": "123-456-7899",
+    "Phone-number": "(561) 226-3157",
     "link": "www.Allbird.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/Allbirds-shoes.jpeg",
+    "img": "https://malala.me/wp-content/uploads/2021/04/Allbirds.png",
     "location": "22100 FL-7, Boca Raton, FL 33428",
     "coordinates": [-80.201, 26.349]
   },
 
   {
     "id": 8,
-    "shoe": "Merino",
+    "shoe": "Slip-Ons",
+    "company": "Merino",
+    "price": "88 USD",
     "Stores": "Walmart",
-    "Phone-number": "123-456-7899",
+    "Phone-number": "(561) 226-3157",
     "link": "www.Merino.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/Merino-shoes.jpeg",
+    "img": "https://malala.me/wp-content/uploads/2021/04/Merinos.png",
     "location": "22100 FL-7, Boca Raton, FL 33428",
     "coordinates": [-80.201, 26.349]
   },
 
   {
     "id": 9,
-    "shoe": "Ecco",
+    "shoe": "Soft Slip-On Sneakers",
+    "company": "Ecco",
+    "price": "130 USD",
     "Stores": "Nordstrom",
-    "Phone-number": "123-456-7899",
+    "Phone-number": "(561) 620-5555",
     "link": "www.Ecco.com",
-    "img": "https://malala.me/wp-content/uploads/2021/04/Ecco-shoe.jpeg",
+    "img": "https://malala.me/wp-content/uploads/2021/04/Ecco-shoe.png",
     "location": "5820 GLADES RD, BOCA RATON, FL, 33431",
     "coordinates": [-80.131, 26.364]
   }

@@ -9,11 +9,7 @@ import { useParams } from "react-router-dom";
 import { Link } from "react";
 import { useState, useEffect } from "react";
 const url = "http://localhost:8080/api/shoes";
-function Shoe({ props, match, history }) {
-  const { id } = useParams();
-  const [selectedShoe, setSelectedShoe] = useState(null);
-  const [shoe, setShoe] = useState(null);
-  const [shoeId, setShoeId] = useState(null);
+function Shoe() {
   const [viewport, setViewport] = useState({
     latitude: 26.146,
     longitude: -80.315,
@@ -21,6 +17,11 @@ function Shoe({ props, match, history }) {
     height: "40vh",
     width: "100%",
   });
+  const { id } = useParams();
+  const [selectedShoe, setSelectedShoe] = useState(null);
+  const [shoe, setShoe] = useState(null);
+  const [shoeId, setShoeId] = useState(null);
+
   useEffect(() => {
     axios
       .get(`${url}/${id}`)
@@ -79,8 +80,8 @@ function Shoe({ props, match, history }) {
           <div>
             {selectedShoe ? (
               <Popup
-                latitude={shoe.coordinates[1]}
-                longitude={shoe.coordinates[0]}
+                latitude={selectedShoe.coordinates[1]}
+                longitude={selectedShoe.coordinates[0]}
                 onClose={() => {
                   setSelectedShoe(null);
                 }}

@@ -53,7 +53,6 @@ function Home_Page() {
             <source src={Home_Video2} type="video/mp4" />
           </video>
           <div className="overlay2">
-            <h1 className="overlay2__right">OR</h1>
             <h4>Start Living The Laceless Life</h4>
             <Link to="/shoes">
               <button type="button" className="button">
@@ -63,6 +62,18 @@ function Home_Page() {
           </div>
         </div>
       </div>
+
+      <Jumbotron className="jumbotron2">
+        <h1>Stores Near You</h1>
+
+        <p>Find stores Near you that have laceless shoes for sale.</p>
+
+        <Link to="/stores">
+          <button type="button" className="button">
+            Find Stores
+          </button>
+        </Link>
+      </Jumbotron>
 
       <Jumbotron className="jumbotron">
         <h1>Learn How to Tie Your Shoe</h1>
@@ -75,17 +86,6 @@ function Home_Page() {
         <Link to="/demo">
           <button type="button" className="button">
             Watch Demo
-          </button>
-        </Link>
-      </Jumbotron>
-      <Jumbotron className="jumbotron2">
-        <h1>Stores Near You</h1>
-
-        <p>Find stores Near you that have laceless shoes for sale.</p>
-
-        <Link to="/stores">
-          <button type="button" className="button">
-            Find Stores
           </button>
         </Link>
       </Jumbotron>
