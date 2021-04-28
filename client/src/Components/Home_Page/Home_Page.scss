@@ -269,6 +269,12 @@ button:active {
   height: 100%;
   padding-left: 1rem;
   padding-bottom: 1.4rem;
+
+  &__right {
+    margin-top: -2.4rem;
+    margin-left: 13rem;
+    color: black;
+  }
 }
 
 .container3 {

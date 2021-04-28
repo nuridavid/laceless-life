@@ -53,6 +53,7 @@ function Home_Page() {
             <source src={Home_Video2} type="video/mp4" />
           </video>
           <div className="overlay2">
+            <h1 className="overlay2__right">OR</h1>
             <h4>Start Living The Laceless Life</h4>
             <Link to="/shoes">
               <button type="button" className="button">
