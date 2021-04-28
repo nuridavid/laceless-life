@@ -229,3 +229,53 @@ button:active {
     background-image: url("../../Assets/laceless\ shoes.jpeg");
   }
 }
+
+.container2 {
+  position: relative;
+}
+.container2 video {
+  position: relative;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: $mint;
+  text-shadow: black 1px 1px 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  height: 100%;
+  padding: 1rem;
+  padding-bottom: 1.4rem;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: $mint;
+  text-shadow: black 1px 1px 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  height: 100%;
+  padding-left: 1rem;
+  padding-bottom: 1.4rem;
+}
+
+.container3 {
+  position: relative;
+}
+.container3 video {
+  position: relative;
+  z-index: 0;
+  border-radius: 5px;
+}
