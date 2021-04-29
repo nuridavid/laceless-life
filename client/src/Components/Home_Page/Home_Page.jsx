@@ -94,8 +94,8 @@ function Home_Page() {
         <h1>Shop Laceless</h1>
 
         <p>
-          Below you can find our unique and one of a kind demo on how to tie
-          your shoes!
+          Check out our amazing laceless shoes and start living The Laceless
+          Life!
         </p>
         <Link to="/shoes">
           <button type="button" className="button">
