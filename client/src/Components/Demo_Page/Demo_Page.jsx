@@ -40,10 +40,10 @@ function Demo_Page() {
 
       <div className="demo__img-container">
         <Link to="/shoes/1">
-          <img src={a} alt="Vans-picture" className="demo__img" />
+          <img src={a} alt="Vans-picture" id="vans2" className="demo__img" />
         </Link>
         <Link to="/shoes/3">
-          <img src={b} alt="Toms-picture" className="demo__img" />
+          <img src={b} alt="Toms-picture" className="demo__img2" />
         </Link>
         <Link to="/shoes/9">
           <img src={c} alt="Ecco-picture" className="demo__img" />
