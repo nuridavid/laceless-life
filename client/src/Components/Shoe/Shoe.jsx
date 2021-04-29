@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
 import { Link } from "react";
 import { useState, useEffect } from "react";
 const url = "http://localhost:8080/api/shoes";
-function Shoe() {
+function Shoe({ props, match, history }) {
   const [viewport, setViewport] = useState({
     latitude: 26.146,
     longitude: -80.315,
@@ -18,8 +18,9 @@ function Shoe() {
     width: "100%",
   });
   const { id } = useParams();
-  const [selectedShoe, setSelectedShoe] = useState(null);
   const [shoe, setShoe] = useState(null);
+  const [open, setOpen] = useState(false);
+
   const [shoeId, setShoeId] = useState(null);
 
   useEffect(() => {
@@ -38,7 +39,7 @@ function Shoe() {
   useEffect(() => {
     const listener = (e) => {
       if (e.key === "Escape") {
-        setSelectedShoe(null);
+        setOpen(false);
       }
     };
     window.addEventListener("keydown", listener);
@@ -73,29 +74,22 @@ function Shoe() {
             latitude={shoe.coordinates[1]}
             longitude={shoe.coordinates[0]}
           >
-            <button
-              className="store__marker-btn"
-              onClick={(e) => {
-                e.preventDefault();
-                setSelectedShoe(Shoe);
-              }}
-            >
+            <button className="store__marker-btn" onClick={() => setOpen(true)}>
               <img src={shoe.img} alt="shoe" />
             </button>
           </Marker>
           <div>
-            {selectedShoe && (
+            {open && (
               <Popup
-                latitude={selectedShoe.coordinates[1]}
-                longitude={selectedShoe.coordinates[0]}
-                key={shoe.id}
+                latitude={shoe.coordinates[1]}
+                longitude={shoe.coordinates[0]}
                 onClose={() => {
-                  setSelectedShoe(null);
+                  setOpen(false);
                 }}
               >
                 <div className="popup">
                   <h6>
-                    {selectedShoe.stores}, {selectedShoe.location}
+                    {shoe.stores}, {shoe.location}
                   </h6>
                 </div>
               </Popup>
