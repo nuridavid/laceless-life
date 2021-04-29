@@ -14,7 +14,7 @@ function Shoe({ props, match, history }) {
     latitude: 26.146,
     longitude: -80.315,
     zoom: 7,
-    height: "40vh",
+    height: "400px",
     width: "100%",
   });
   const { id } = useParams();
@@ -59,6 +59,28 @@ function Shoe({ props, match, history }) {
           ></img>
           <h3>{shoe.company}</h3>
           <h4>{shoe.shoe}</h4>
+        </div>
+        <div className="info-box">
+          <div className="info-box1">
+            <h3>Price</h3>
+            <h5> {shoe.price}</h5>
+          </div>
+          <div className="info-box3">
+            <h3>Description</h3>
+            <h5> {shoe.description}</h5>
+          </div>
+          <div className="store-info">
+            <h1>Store Info</h1>
+            <h4 className="store__header">{shoe.stores}</h4>
+            <div className="info-box2">
+              <h3>Location</h3>
+              <h5> {shoe.location}</h5>
+            </div>
+            <div className="info-box2">
+              <h3>Phone Number</h3>
+              <h5> {shoe.phone}</h5>
+            </div>
+          </div>
         </div>
         <ReactMapGL
           {...viewport}

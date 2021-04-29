@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   background-color: black;
-  height: 100vh;
+  padding: 1rem;
 
   &-img {
     height: 7.5rem;
@@ -44,4 +44,53 @@ h4 {
   height: 15rem;
   width: 17rem;
   margin: 0;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  &3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    border-bottom: lightblue 1px solid;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+  }
+  &2 {
+    margin: 1rem 0;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    h5 {
+      margin: 0;
+    }
+  }
+
+  h5 {
+    color: lightblue;
+  }
+}
+h1 {
+  color: $mint;
+}
+
+.store__header {
+  color: lightblue;
 }
