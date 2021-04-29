@@ -1,9 +1,11 @@
 import React from "react";
-import nike_Pic from "../../Assets/nike.png";
-import toms_Img from "../../Assets/toms shoes.jpeg";
-import Demo_Vid from "../../Assets/nuridavid.mp4";
 import { Jumbotron } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import a from "../../Assets/Vans.png";
+import b from "../../Assets/Toms-parker-slip-on.png";
+import c from "../../Assets/Ecco-shoe.png";
+import Demo_Vid from "../../Assets/nuridavid.mp4";
+
 import "./Demo_Page.scss";
 import ReactPlayer from "react-player";
 import Arrow from "../../Assets/Untitled design.mp4";
@@ -38,15 +40,20 @@ function Demo_Page() {
 
       <div className="demo__img-container">
         <Link to="/shoes/1">
-          <img src={nike_Pic} alt="nike phantom" className="demo__img" />
-        </Link>
-        <Link to="/shoes/2">
-          <img src={toms_Img} alt="nike phantom" className="demo__img" />
+          <img src={a} alt="Vans-picture" className="demo__img" />
         </Link>
         <Link to="/shoes/3">
-          <img src={nike_Pic} alt="nike phantom" className="demo__img" />
+          <img src={b} alt="Toms-picture" className="demo__img" />
+        </Link>
+        <Link to="/shoes/9">
+          <img src={c} alt="Ecco-picture" className="demo__img" />
         </Link>
       </div>
+      <Link to="/shoes">
+        <button type="button" className="demo__button">
+          See All Shoes
+        </button>
+      </Link>
 
       <Jumbotron className="demo__jumbo">
         <h1>Stores Near You</h1>
