@@ -76,7 +76,7 @@ function Home_Page() {
       </Jumbotron>
 
       <Jumbotron className="jumbotron">
-        <h1>Learn How to Tie Your Shoe</h1>
+        <h1>Learn How to Tie Your Shoes</h1>
 
         <p>
           Below you can find our unique and one of a kind demo on how to tie
