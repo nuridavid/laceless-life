@@ -74,11 +74,11 @@ function Shoe() {
                 setSelectedShoe(Shoe);
               }}
             >
-              <img src={ShoePic} alt="shoe" />
+              <img src={shoe.img} alt="shoe" />
             </button>
           </Marker>
           <div>
-            {selectedShoe ? (
+            {selectedShoe && (
               <Popup
                 latitude={selectedShoe.coordinates[1]}
                 longitude={selectedShoe.coordinates[0]}
@@ -91,7 +91,7 @@ function Shoe() {
                   <h4>{shoe.location}</h4>
                 </div>
               </Popup>
-            ) : null}
+            )}
           </div>
         </ReactMapGL>
       </div>

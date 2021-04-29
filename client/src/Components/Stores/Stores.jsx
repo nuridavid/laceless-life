@@ -39,6 +39,7 @@ function Stores() {
       window.removeEventListener("keydown", listener);
     };
   }, []);
+
   console.log(selectedStore);
   return (
     <div>
@@ -80,9 +81,10 @@ function Stores() {
                       setSelectedStore(null);
                     }}
                   >
-                    <div>
-                      <h2>{selectedStore.stores}</h2>
-                      <h4>{selectedStore.location}</h4>
+                    <div className="popup">
+                      <h6>
+                        {selectedStore.stores}, {selectedStore.location}
+                      </h6>
                     </div>
                   </Popup>
                 )}
