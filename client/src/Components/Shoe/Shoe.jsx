@@ -78,6 +78,7 @@ function Shoe({ props, match, history }) {
             </div>
             <div className="info-box2">
               <h3>Phone Number</h3>
+
               <h5> {shoe.phone}</h5>
             </div>
           </div>

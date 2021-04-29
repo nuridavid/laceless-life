@@ -18,16 +18,16 @@ function Navy() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/" id="menu">
+            <Nav.Link href="/" id="menu" activeClassName="is-active">
               Home
             </Nav.Link>
-            <Nav.Link href="/demo" id="menu">
+            <Nav.Link href="/demo" id="menu" activeClassName="is-active">
               Demo
             </Nav.Link>
-            <Nav.Link href="/shoes" id="menu">
+            <Nav.Link href="/shoes" id="menu" activeClassName="is-active">
               Shoes
             </Nav.Link>
-            <Nav.Link href="/stores" id="menu">
+            <Nav.Link href="/stores" id="menu" activeClassName="is-active">
               Stores
             </Nav.Link>
           </Nav>

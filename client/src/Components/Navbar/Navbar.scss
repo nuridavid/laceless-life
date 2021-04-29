@@ -32,9 +32,14 @@
 }
 #header {
   color: rgb(24.3%, 70.6%, 53.7%);
-  font-family: "Logo";
+  font-family: "all-text";
 }
 
 #menu {
   color: rgb(36, 156, 112);
+}
+
+.is-active {
+  font-weight: 700;
+  color: white;
 }

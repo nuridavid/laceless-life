@@ -14,10 +14,30 @@ function App() {
     <Router>
       <Navy />
       <Switch>
-        <Route exact path="/" component={Home_Page} />
-        <Route exact path="/demo" component={Demo_Page} />
-        <Route exact path="/shoes" component={Shoes} />
-        <Route exact path="/shoes/:id" component={Shoe} />
+        <Route
+          exact
+          path="/"
+          component={Home_Page}
+          activeClassName="is-active"
+        />
+        <Route
+          exact
+          path="/demo"
+          component={Demo_Page}
+          activeClassName="is-active"
+        />
+        <Route
+          exact
+          path="/shoes"
+          component={Shoes}
+          activeClassName="is-active"
+        />
+        <Route
+          exact
+          path="/shoes/:id"
+          component={Shoe}
+          activeClassName="is-active"
+        />
         <Route exact path="/stores" component={Stores} />
         <Route exact path="/stores/:id" component={Stores} />
         <Route component={Not_Found} />
