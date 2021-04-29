@@ -50,9 +50,15 @@ function Shoe() {
   return (
     shoe && (
       <div className="shoe__container">
-        <img className="shoe__container-img" src={shoe.img}></img>
-        <h3>{shoe.shoe}</h3>
-
+        <div className="shoe__container-top">
+          <img
+            className="shoe__container-img"
+            src={shoe.img}
+            id={shoe.class}
+          ></img>
+          <h3>{shoe.company}</h3>
+          <h4>{shoe.shoe}</h4>
+        </div>
         <ReactMapGL
           {...viewport}
           mapboxApiAccessToken={
@@ -82,13 +88,15 @@ function Shoe() {
               <Popup
                 latitude={selectedShoe.coordinates[1]}
                 longitude={selectedShoe.coordinates[0]}
+                key={shoe.id}
                 onClose={() => {
                   setSelectedShoe(null);
                 }}
               >
-                <div>
-                  <h2>{shoe.shoe}</h2>
-                  <h4>{shoe.location}</h4>
+                <div className="popup">
+                  <h6>
+                    {selectedShoe.stores}, {selectedShoe.location}
+                  </h6>
                 </div>
               </Popup>
             )}

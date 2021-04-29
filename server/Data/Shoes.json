@@ -9,6 +9,7 @@
     "link": "www.Vans.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Vans.png",
     "class": "vans",
+    "class2": "vans2",
     "location": "8210 Glades Rd Boca Raton, FL 33434",
     "coordinates": [-80.175, 26.367]
   },
@@ -23,6 +24,7 @@
     "link": "www.Underarmour.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Under-Armour.png",
     "class": "under",
+    "class2": "under2",
     "location": " 1791 Palm Beach Lakes Blvd Suite W115, West Palm Beach, FL 33401",
     "coordinates": [-80.088, 26.726]
   },
@@ -37,6 +39,7 @@
     "link": "www.Toms.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Toms-parker-slip-on.png",
     "class": "toms",
+    "class2": "toms2",
     "location": "9870 Glades Road Boca Raton, FL 33434-3917 US",
     "coordinates": [-80.202, 26.365]
   },
@@ -50,6 +53,8 @@
     "img": "https://malala.me/wp-content/uploads/2021/04/nike.png",
     "store": "nike",
     "location": "12801 W Sunrise Blvd Ste 1005 Sunrise, FL 33323",
+    "class": "phantom",
+    "class2": "phantom2",
     "phone-number": "(954) 837-0329",
     "coordinates": [-80.315, 26.146]
   },
@@ -63,6 +68,8 @@
     "link": "www.Nike.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Nike-slides.png",
     "location": "12801 W Sunrise Blvd Ste 1005 Sunrise, FL 33323",
+    "class": "nike-slip",
+    "class2": "nike-slip2",
     "phone-number": "(954) 837-0329",
     "coordinates": [-80.315, 26.146]
   },
@@ -75,6 +82,8 @@
     "phone-number": "(561) 226-3157",
     "link": "www.Allbird.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Allbirds.png",
+    "class": "allbirds",
+    "class2": "allbirds2",
     "location": "22100 FL-7, Boca Raton, FL 33428",
     "coordinates": [-80.201, 26.349]
   },
@@ -88,6 +97,8 @@
     "phone-number": "(561) 226-3157",
     "link": "www.Merino.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Merinos.png",
+    "class": "merino",
+    "class2": "merino2",
     "location": "22100 FL-7, Boca Raton, FL 33428",
     "coordinates": [-80.201, 26.349]
   },
@@ -101,6 +112,8 @@
     "phone-number": "(561) 620-5555",
     "link": "www.Ecco.com",
     "img": "https://malala.me/wp-content/uploads/2021/04/Ecco-shoe.png",
+    "class": "ecco",
+    "class2": "ecco2",
     "location": "5820 GLADES RD, BOCA RATON, FL, 33431",
     "coordinates": [-80.131, 26.364]
   }

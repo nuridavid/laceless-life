@@ -35,13 +35,12 @@ function Shoes({ props, match, history }) {
                 history.push(`/shoes/${shoe.id}`);
               }}
             >
-              <img src={shoe.img} id={shoe.class} alt={shoe.shoe}></img>
+              <img src={shoe.img} id={shoe.class2} alt={shoe.shoe}></img>
               <div className="shoe__name">
                 <h3>{shoe.company}</h3>
 
                 <h5 className="shoe__name-shoe">{shoe.shoe}</h5>
                 <h6>{shoe.price}</h6>
-                <p>Available in a store near you</p>
               </div>
             </div>
           );

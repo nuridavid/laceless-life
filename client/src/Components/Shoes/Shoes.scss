@@ -26,6 +26,7 @@
   img {
     height: 10rem;
     width: 110%;
+    margin-bottom: 1rem;
   }
 
   &__header {
@@ -39,94 +40,7 @@
     margin-bottom: -0.5rem;
     padding-left: 3rem;
   }
-
-  &__button {
-  }
-
-  .container1__button:hover {
-  }
 }
-
-.glow-on-hover {
-  width: 220px;
-  height: 50px;
-  border: none;
-  outline: none;
-  color: #fff;
-  background: #111;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-}
-
-.glow-on-hover:before {
-  content: "";
-  background: linear-gradient(
-    45deg,
-    $neon,
-    #20c997,
-    #48ff00,
-    #00ffd5,
-    lightgreen
-  );
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing 20s linear infinite;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
-}
-
-.glow-on-hover:active {
-  color: gray;
-}
-
-.glow-on-hover:active:after {
-  background: transparent;
-}
-
-.glow-on-hover:hover:before {
-  opacity: 1;
-}
-
-.glow-on-hover:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #111;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
-}
-
-@keyframes glowing {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-
-#vans {
-  background-image: url("../../Assets/adidas\ shoes.webp");
-}
-
-// .under {
-//   height: 20%;
-// }
 
 .card__header {
   margin-right: 1rem;
@@ -139,6 +53,32 @@
   width: 100%;
 
   &-shoe {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
+}
+
+#nike-slip2 {
+  height: 6.5rem;
+  width: 14rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+#phantom2 {
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: -0.5rem;
+  transform: scale(1.7);
+  margin-left: 1rem;
+}
+
+#vans2 {
+  height: 8.5rem;
+  margin: 0 0 3rem 0;
+}
+
+#merino2 {
+  height: 9rem;
+  width: 13rem;
+  margin-bottom: 2rem;
 }
