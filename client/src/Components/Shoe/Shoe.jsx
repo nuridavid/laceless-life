@@ -95,7 +95,6 @@ function Shoe({ props, match, history }) {
           mapboxApiAccessToken={
             "pk.eyJ1IjoibnVyaWRhdmlkIiwiYSI6ImNrbnhtOGM2aDB0MWUydm95anEzdXZlY2YifQ.3GQlEgjYKYrWYLKaag9Low"
           }
-          mapStyle="mapbox://styles/nuridavid/ckny3gab03ori17pasqb4ydks?access_token=pk.eyJ1IjoibnVyaWRhdmlkIiwiYSI6ImNrbnhtOGM2aDB0MWUydm95anEzdXZlY2YifQ.3GQlEgjYKYrWYLKaag9Low"
           onViewportChange={(viewport) => {
             setViewport(viewport);
           }}
