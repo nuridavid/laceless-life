@@ -5,7 +5,7 @@ import { Link } from "react";
 
 import shoepic from "../../Assets/adidas shoes.webp";
 import { useState, useEffect } from "react";
-const url = "http://localhost:8080/api/shoes";
+const url = "/api/shoes";
 function Shoes({ props, match, history }) {
   const [shoe, setShoe] = useState(null);
 
