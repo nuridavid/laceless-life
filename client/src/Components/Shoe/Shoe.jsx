@@ -76,6 +76,13 @@ function Shoe({ props, match, history }) {
               <h3>Location</h3>
               <h5> {shoe.location}</h5>
             </div>
+            <a href={shoe.link}>
+              <div className="info-box2">
+                <h3>Website</h3>
+
+                <h5> {shoe.link}</h5>
+              </div>
+            </a>
             <div className="info-box2">
               <h3>Phone Number</h3>
 
