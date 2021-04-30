@@ -4,7 +4,7 @@ import axios from "axios";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import Shoe from "../../Assets/toms shoes.jpeg";
 import { useState, useEffect } from "react";
-const url = "http://localhost:8080/api/stores";
+const url = "/api/stores";
 
 function Stores() {
   const [viewport, setViewport] = useState({
