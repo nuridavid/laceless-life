@@ -51,6 +51,7 @@ function Stores() {
           setViewport(viewport);
         }}
       >
+        {/* //comment */}
         {store?.map((store) => {
           return (
             <div>
