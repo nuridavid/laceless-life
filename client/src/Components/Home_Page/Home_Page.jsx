@@ -30,7 +30,7 @@ function Home_Page() {
             <source src={Home_Video} type="video/mp4" />
           </video>
           <div className="overlay">
-            <h4>Learn How To Tie Your Shoes</h4>
+            <h3>Learn How To Tie Your Shoes</h3>
             <Link to="/demo">
               <button type="button" className="button">
                 Watch Demo
@@ -53,7 +53,7 @@ function Home_Page() {
             <source src={Home_Video2} type="video/mp4" />
           </video>
           <div className="overlay2">
-            <h4>Start Living The Laceless Life</h4>
+            <h3>Start Living The Laceless Life</h3>
             <Link to="/shoes">
               <button type="button" className="button">
                 Shop Laceless
