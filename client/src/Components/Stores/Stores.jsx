@@ -4,7 +4,7 @@ import axios from "axios";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import Shoe from "../../Assets/toms shoes.jpeg";
 import { useState, useEffect } from "react";
-const url = "/api/stores";
+const url = "http://localhost:8080/api/stores";
 
 function Stores() {
   const [viewport, setViewport] = useState({
@@ -46,12 +46,11 @@ function Stores() {
       <ReactMapGL
         {...viewport}
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_KEY}
-        mapStyle={process.env.REACT_APP_MAPBOX_STYLE}
+        mapStyle="mapbox://styles/nuridavid/ckny3gab03ori17pasqb4ydks"
         onViewportChange={(viewport) => {
           setViewport(viewport);
         }}
       >
-        {/* //comment */}
         {store?.map((store) => {
           return (
             <div>
