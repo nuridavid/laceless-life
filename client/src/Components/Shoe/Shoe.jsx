@@ -13,7 +13,7 @@ function Shoe({ props, match, history }) {
   const [viewport, setViewport] = useState({
     latitude: 26.146,
     longitude: -80.315,
-    zoom: 5,
+    zoom: 7,
     height: "400px",
     width: "100%",
   });
