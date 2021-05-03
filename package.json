@@ -24,11 +24,13 @@
   },
   "homepage": "https://github.com/nuridavid/capstone#readme",
   "dependencies": {
+    "babel": "^6.23.0",
     "concurrently": "^6.0.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "webpack": "^5.36.2"
   },
   "browserslist": [
     ">0.2%",
