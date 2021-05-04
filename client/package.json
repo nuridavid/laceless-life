@@ -45,7 +45,6 @@
     ]
   },
   "devDependencies": {
-    "webpack": "^4.44.2",
     "worker-loader": "^3.0.8"
   }
 }

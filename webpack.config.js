@@ -1,1 +1,10 @@
-const path = require("path");
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.worker\.js$/,
+        use: { loader: "worker-loader" },
+      },
+    ],
+  },
+};

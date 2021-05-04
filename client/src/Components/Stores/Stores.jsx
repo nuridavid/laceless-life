@@ -46,7 +46,7 @@ function Stores() {
       <ReactMapGL
         {...viewport}
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_KEY}
-        mapStyle={"mapbox://styles/mapbox/streets-v11"}
+        mapStyle={process.env.REACT_APP_MAPBOX_STYLE}
         onViewportChange={(viewport) => {
           setViewport(viewport);
         }}
