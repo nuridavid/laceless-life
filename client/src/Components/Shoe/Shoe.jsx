@@ -8,7 +8,7 @@ import "./Shoe.scss";
 import { useParams } from "react-router-dom";
 import { Link } from "react";
 import { useState, useEffect } from "react";
-const url = "http://localhost:8080/api/shoes";
+const url = "/api/shoes";
 function Shoe({ props, match, history }) {
   const [viewport, setViewport] = useState({
     latitude: 26.146,
