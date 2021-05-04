@@ -1,6 +1,7 @@
 import React from "react";
 import "./Stores.scss";
 import axios from "axios";
+// import MapboxWorker from "worker-loader!react-map-gl/dist/react-map-gl-csp-worker"; // Load worker code separately with worker-loader
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import Shoe from "../../Assets/toms shoes.jpeg";
 import { useState, useEffect } from "react";
